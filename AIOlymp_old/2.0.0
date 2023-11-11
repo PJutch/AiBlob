@@ -1,0 +1,7 @@
+Collecting portalocker
+  Downloading portalocker-2.7.0-py2.py3-none-any.whl (15 kB)
+Collecting pywin32>=226 (from portalocker)
+  Downloading pywin32-306-cp38-cp38-win_amd64.whl (9.4 MB)
+     ---------------------------------------- 9.4/9.4 MB 739.2 kB/s eta 0:00:00
+Installing collected packages: pywin32, portalocker
+Successfully installed portalocker-2.7.0 pywin32-306
