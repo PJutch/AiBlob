@@ -33,6 +33,7 @@ data = pandas.read_csv(data_file)
 data = data.drop('Unnamed: 0', axis='columns')
 
 print('Loading gensim model...')
+# download from https://drive.google.com/file/d/1ogMnRT3x9cbPQc6GI4oTXLFnuiGj2pu7/view?usp=sharing
 model = gensim.models.KeyedVectors.load_word2vec_format('model65.bin', binary=True)
 
 processed = 0
